@@ -1,0 +1,874 @@
+{
+  "KPMG": {
+    "company_info": {
+      "name": "KPMG",
+      "industry": "Professional Services",
+      "fiscal_year": "2024"
+    },
+    "balance_sheet": {
+      "assets": {
+        "current_assets": {
+          "cash_and_equivalents": 4200000000,
+          "accounts_receivable": 9500000000,
+          "inventory": 180000000,
+          "other_current_assets": 2100000000,
+          "total_current_assets": 15980000000
+        },
+        "non_current_assets": {
+          "property_plant_equipment": 3500000000,
+          "intangible_assets": 7600000000,
+          "investments": 5100000000,
+          "other_non_current_assets": 1900000000,
+          "total_non_current_assets": 18100000000
+        },
+        "total_assets": 34080000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 3800000000,
+          "short_term_debt": 2100000000,
+          "accrued_expenses": 4900000000,
+          "other_current_liabilities": 1700000000,
+          "total_current_liabilities": 12500000000
+        },
+        "non_current_liabilities": {
+          "long_term_debt": 6500000000,
+          "pension_liabilities": 4100000000,
+          "other_non_current_liabilities": 1800000000,
+          "total_non_current_liabilities": 12400000000
+        },
+        "total_liabilities": 24900000000
+      },
+      "equity": {
+        "partner_capital": 7200000000,
+        "retained_earnings": 1980000000,
+        "total_equity": 9180000000
+      }
+    },
+    "income_statement": {
+      "revenue": 35700000000,
+      "cost_of_services": 19800000000,
+      "gross_profit": 15900000000,
+      "operating_expenses": {
+        "personnel_expenses": 8200000000,
+        "administrative_expenses": 1900000000,
+        "technology_expenses": 2100000000,
+        "marketing_expenses": 800000000,
+        "other_operating_expenses": 700000000,
+        "total_operating_expenses": 13700000000
+      },
+      "operating_income": 2200000000,
+      "other_income_expenses": {
+        "interest_income": 180000000,
+        "interest_expense": 350000000,
+        "other_income": 90000000,
+        "total_other_income_expenses": -80000000
+      },
+      "income_before_tax": 2120000000,
+      "income_tax": 550000000,
+      "net_income": 1570000000
+    },
+    "journal": [
+      {
+        "date": "2024-08-15",
+        "document_number": "FY24-0815-01",
+        "description": "Major consulting project completion",
+        "account_number": 4010,
+        "account_name": "Consulting Revenue",
+        "debet": 0,
+        "credit": 3500000000
+      },
+      {
+        "date": "2024-08-31",
+        "document_number": "FY24-0831-01",
+        "description": "Monthly employee salary payment",
+        "account_number": 6010,
+        "account_name": "Salary Expense",
+        "debet": 680000000,
+        "credit": 0
+      },
+      {
+        "date": "2024-09-05",
+        "document_number": "FY24-0905-01",
+        "description": "Office rent payment Q3",
+        "account_number": 6110,
+        "account_name": "Rent Expense",
+        "debet": 85000000,
+        "credit": 0
+      },
+      {
+        "date": "2024-09-15",
+        "document_number": "FY24-0915-01",
+        "description": "Audit services invoiced",
+        "account_number": 4020,
+        "account_name": "Audit Revenue",
+        "debet": 0,
+        "credit": 2700000000
+      },
+      {
+        "date": "2024-09-20",
+        "document_number": "FY24-0920-01",
+        "description": "Technology infrastructure upgrade",
+        "account_number": 6210,
+        "account_name": "Technology Expense",
+        "debet": 175000000,
+        "credit": 0
+      }
+    ],
+    "ledger": [
+      {
+        "account_number": 1910,
+        "account_name": "Cash and Cash Equivalents",
+        "entries": [
+          {
+            "date": "2024-08-01",
+            "document_number": "FY24-0801-01",
+            "description": "Opening balance",
+            "debet": 4050000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-08-31",
+            "document_number": "FY24-0831-01",
+            "description": "Monthly employee salary payment",
+            "debet": 0,
+            "credit": 680000000
+          },
+          {
+            "date": "2024-09-05",
+            "document_number": "FY24-0905-01",
+            "description": "Office rent payment Q3",
+            "debet": 0,
+            "credit": 85000000
+          },
+          {
+            "date": "2024-09-10",
+            "document_number": "FY24-0910-01",
+            "description": "Client payment received",
+            "debet": 915000000,
+            "credit": 0
+          }
+        ]
+      },
+      {
+        "account_number": 4010,
+        "account_name": "Consulting Revenue",
+        "entries": [
+          {
+            "date": "2024-08-15",
+            "document_number": "FY24-0815-01",
+            "description": "Major consulting project completion",
+            "debet": 0,
+            "credit": 3500000000
+          },
+          {
+            "date": "2024-09-25",
+            "document_number": "FY24-0925-01",
+            "description": "Small business consulting services",
+            "debet": 0,
+            "credit": 950000000
+          }
+        ]
+      }
+    ]
+  },
+  "TechNova": {
+    "company_info": {
+      "name": "TechNova",
+      "industry": "Technology",
+      "fiscal_year": "2024"
+    },
+    "balance_sheet": {
+      "assets": {
+        "current_assets": {
+          "cash_and_equivalents": 25000000000,
+          "accounts_receivable": 8500000000,
+          "inventory": 3100000000,
+          "other_current_assets": 2900000000,
+          "total_current_assets": 39500000000
+        },
+        "non_current_assets": {
+          "property_plant_equipment": 12000000000,
+          "intangible_assets": 35000000000,
+          "investments": 18000000000,
+          "other_non_current_assets": 4500000000,
+          "total_non_current_assets": 69500000000
+        },
+        "total_assets": 109000000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 6800000000,
+          "short_term_debt": 0,
+          "accrued_expenses": 7200000000,
+          "other_current_liabilities": 3500000000,
+          "total_current_liabilities": 17500000000
+        },
+        "non_current_liabilities": {
+          "long_term_debt": 10000000000,
+          "pension_liabilities": 5500000000,
+          "other_non_current_liabilities": 3000000000,
+          "total_non_current_liabilities": 18500000000
+        },
+        "total_liabilities": 36000000000
+      },
+      "equity": {
+        "common_stock": 15000000000,
+        "retained_earnings": 58000000000,
+        "total_equity": 73000000000
+      }
+    },
+    "income_statement": {
+      "revenue": 78000000000,
+      "cost_of_goods_sold": 29000000000,
+      "gross_profit": 49000000000,
+      "operating_expenses": {
+        "research_development": 15000000000,
+        "selling_general_admin": 8500000000,
+        "technology_expenses": 4200000000,
+        "marketing_expenses": 5300000000,
+        "other_operating_expenses": 1800000000,
+        "total_operating_expenses": 34800000000
+      },
+      "operating_income": 14200000000,
+      "other_income_expenses": {
+        "interest_income": 750000000,
+        "interest_expense": 450000000,
+        "other_income": 350000000,
+        "total_other_income_expenses": 650000000
+      },
+      "income_before_tax": 14850000000,
+      "income_tax": 3100000000,
+      "net_income": 11750000000
+    },
+    "journal": [
+      {
+        "date": "2024-09-01",
+        "document_number": "TN24-0901-01",
+        "description": "Product sales - North America",
+        "account_number": 4010,
+        "account_name": "Product Revenue",
+        "debet": 0,
+        "credit": 6500000000
+      },
+      {
+        "date": "2024-09-07",
+        "document_number": "TN24-0907-01",
+        "description": "R&D equipment purchase",
+        "account_number": 1510,
+        "account_name": "Equipment",
+        "debet": 870000000,
+        "credit": 0
+      }
+    ],
+    "ledger": [
+      {
+        "account_number": 1910,
+        "account_name": "Cash and Cash Equivalents",
+        "entries": [
+          {
+            "date": "2024-01-01",
+            "document_number": "TN24-0101-01",
+            "description": "Opening balance",
+            "debet": 1000000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-02-01",
+            "document_number": "TN24-0201-01",
+            "description": "Sales income",
+            "debet": 1100000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-03-01",
+            "document_number": "TN24-0301-01",
+            "description": "Consulting income",
+            "debet": 1200000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-04-01",
+            "document_number": "TN24-0401-01",
+            "description": "Vendor payment",
+            "debet": 0,
+            "credit": 800000000
+          },
+          {
+            "date": "2024-05-01",
+            "document_number": "TN24-0501-01",
+            "description": "Service income",
+            "debet": 1400000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-06-01",
+            "document_number": "TN24-0601-01",
+            "description": "Cloud hosting",
+            "debet": 0,
+            "credit": 650000000
+          },
+          {
+            "date": "2024-07-01",
+            "document_number": "TN24-0701-01",
+            "description": "Customer payment",
+            "debet": 1500000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-08-01",
+            "document_number": "TN24-0801-01",
+            "description": "Office rent",
+            "debet": 0,
+            "credit": 700000000
+          },
+          {
+            "date": "2024-09-01",
+            "document_number": "TN24-0901-01",
+            "description": "Sales income",
+            "debet": 1600000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-10-01",
+            "document_number": "TN24-1001-01",
+            "description": "Tech expense",
+            "debet": 0,
+            "credit": 600000000
+          },
+          {
+            "date": "2024-11-01",
+            "document_number": "TN24-1101-01",
+            "description": "Contract payment",
+            "debet": 1700000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-12-01",
+            "document_number": "TN24-1201-01",
+            "description": "Partner fee",
+            "debet": 0,
+            "credit": 900000000
+          },
+          {
+            "date": "2025-01-01",
+            "document_number": "TN25-0101-01",
+            "description": "Annual deal",
+            "debet": 2000000000,
+            "credit": 0
+          },
+          {
+            "date": "2025-02-01",
+            "document_number": "TN25-0201-01",
+            "description": "System upgrade",
+            "debet": 0,
+            "credit": 850000000
+          },
+          {
+            "date": "2025-03-01",
+            "document_number": "TN25-0301-01",
+            "description": "Sales income",
+            "debet": 1800000000,
+            "credit": 0
+          },
+          {
+            "date": "2025-04-01",
+            "document_number": "TN25-0401-01",
+            "description": "Tech maintenance",
+            "debet": 0,
+            "credit": 750000000
+          },
+          {
+            "date": "2025-05-01",
+            "document_number": "TN25-0501-01",
+            "description": "Customer deal",
+            "debet": 1900000000,
+            "credit": 0
+          }
+        ]
+      }
+    ]
+  },
+  "RetailGiant": {
+    "company_info": {
+      "name": "RetailGiant",
+      "industry": "Retail",
+      "fiscal_year": "2024"
+    },
+    "balance_sheet": {
+      "assets": {
+        "current_assets": {
+          "cash_and_equivalents": 850000000,
+          "accounts_receivable": 1200000000,
+          "inventory": 12500000000,
+          "other_current_assets": 750000000,
+          "total_current_assets": 15300000000
+        },
+        "non_current_assets": {
+          "property_plant_equipment": 14500000000,
+          "intangible_assets": 2100000000,
+          "investments": 1800000000,
+          "other_non_current_assets": 950000000,
+          "total_non_current_assets": 19350000000
+        },
+        "total_assets": 34650000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 8500000000,
+          "short_term_debt": 3500000000,
+          "accrued_expenses": 2100000000,
+          "other_current_liabilities": 1200000000,
+          "total_current_liabilities": 15300000000
+        },
+        "non_current_liabilities": {
+          "long_term_debt": 12500000000,
+          "pension_liabilities": 1800000000,
+          "other_non_current_liabilities": 750000000,
+          "total_non_current_liabilities": 15050000000
+        },
+        "total_liabilities": 30350000000
+      },
+      "equity": {
+        "common_stock": 2500000000,
+        "retained_earnings": 1800000000,
+        "total_equity": 4300000000
+      }
+    },
+    "income_statement": {
+      "revenue": 45000000000,
+      "cost_of_goods_sold": 34500000000,
+      "gross_profit": 10500000000,
+      "operating_expenses": {
+        "personnel_expenses": 4500000000,
+        "rent_and_occupancy": 2800000000,
+        "technology_expenses": 950000000,
+        "marketing_expenses": 1200000000,
+        "other_operating_expenses": 650000000,
+        "total_operating_expenses": 10100000000
+      },
+      "operating_income": 400000000,
+      "other_income_expenses": {
+        "interest_income": 75000000,
+        "interest_expense": 850000000,
+        "other_income": 150000000,
+        "total_other_income_expenses": -625000000
+      },
+      "income_before_tax": -225000000,
+      "income_tax": -45000000,
+      "net_income": -180000000
+    },
+    "journal": [
+      {
+        "date": "2024-09-01",
+        "document_number": "RG24-0901-01",
+        "description": "Monthly sales - all locations",
+        "account_number": 4010,
+        "account_name": "Sales Revenue",
+        "debet": 0,
+        "credit": 3750000000
+      },
+      {
+        "date": "2024-09-05",
+        "document_number": "RG24-0905-01",
+        "description": "Inventory purchase",
+        "account_number": 1410,
+        "account_name": "Inventory",
+        "debet": 2850000000,
+        "credit": 0
+      }
+    ],
+    "ledger": [
+      {
+        "account_number": 1910,
+        "account_name": "Bank Account",
+        "entries": [
+          { "date": "2024-01-05", "debit": 50000, "credit": 0 },
+          { "date": "2024-01-12", "debit": 25000, "credit": 0 },
+          { "date": "2024-01-18", "debit": 0, "credit": 15000 },
+          { "date": "2024-01-25", "debit": 0, "credit": 20000 },
+          { "date": "2024-01-29", "debit": 10000, "credit": 0 },
+          { "date": "2024-02-06", "debit": 52000, "credit": 0 },
+          { "date": "2024-02-14", "debit": 0, "credit": 18000 },
+          { "date": "2024-02-20", "debit": 28000, "credit": 0 },
+          { "date": "2024-02-26", "debit": 0, "credit": 22000 },
+          { "date": "2024-02-28", "debit": 12000, "credit": 0 },
+          { "date": "2024-03-05", "debit": 55000, "credit": 0 },
+          { "date": "2024-03-11", "debit": 0, "credit": 20000 },
+          { "date": "2024-03-19", "debit": 30000, "credit": 0 },
+          { "date": "2024-03-25", "debit": 0, "credit": 25000 },
+          { "date": "2024-03-28", "debit": 15000, "credit": 0 },
+          { "date": "2024-04-07", "debit": 53000, "credit": 0 },
+          { "date": "2024-04-15", "debit": 27000, "credit": 0 },
+          { "date": "2024-04-22", "debit": 0, "credit": 17000 },
+          { "date": "2024-04-28", "debit": 0, "credit": 21000 },
+          { "date": "2024-04-30", "debit": 13000, "credit": 0 },
+          { "date": "2025-01-08", "debit": 75000, "credit": 0 },
+          { "date": "2025-01-16", "debit": 40000, "credit": 0 },
+          { "date": "2025-01-24", "debit": 0, "credit": 40000 },
+          { "date": "2025-01-28", "debit": 0, "credit": 35000 },
+          { "date": "2025-01-30", "debit": 20000, "credit": 0 },
+          { "date": "2025-02-05", "debit": 78000, "credit": 0 },
+          { "date": "2025-02-13", "debit": 0, "credit": 42000 },
+          { "date": "2025-02-21", "debit": 45000, "credit": 0 },
+          { "date": "2025-02-27", "debit": 0, "credit": 38000 },
+          { "date": "2025-02-28", "debit": 22000, "credit": 0 },
+          { "date": "2025-03-06", "debit": 82000, "credit": 0 },
+          { "date": "2025-03-14", "debit": 48000, "credit": 0 },
+          { "date": "2025-03-20", "debit": 0, "credit": 50000 },
+          { "date": "2025-03-26", "debit": 0, "credit": 32000 },
+          { "date": "2025-03-30", "debit": 25000, "credit": 0 },
+          { "date": "2025-04-07", "debit": 85000, "credit": 0 },
+          { "date": "2025-04-15", "debit": 0, "credit": 50000 },
+          { "date": "2025-04-22", "debit": 50000, "credit": 0 },
+          { "date": "2025-04-28", "debit": 0, "credit": 40000 },
+          { "date": "2025-04-30", "debit": 20000, "credit": 0 },
+          { "date": "2025-05-08", "debit": 90000, "credit": 0 },
+          { "date": "2025-05-16", "debit": 0, "credit": 55000 },
+          { "date": "2025-05-24", "debit": 55000, "credit": 0 },
+          { "date": "2025-05-28", "debit": 0, "credit": 45000 },
+          { "date": "2025-05-31", "debit": 25000, "credit": 0 },
+          { "date": "2025-06-07", "debit": 95000, "credit": 0 },
+          { "date": "2025-06-14", "debit": 0, "credit": 60000 },
+          { "date": "2025-06-19", "debit": 60000, "credit": 0 }
+        ]
+      },
+      {
+        "account_number": 4000,
+        "account_name": "Revenue Account",
+        "entries": [
+          { "date": "2024-01-15", "debit": 60000, "credit": 0 },
+          { "date": "2024-01-31", "debit": 40000, "credit": 0 },
+          { "date": "2024-02-15", "debit": 65000, "credit": 0 },
+          { "date": "2024-02-28", "debit": 40000, "credit": 0 },
+          { "date": "2024-03-15", "debit": 70000, "credit": 0 },
+          { "date": "2024-03-31", "debit": 40000, "credit": 0 },
+          { "date": "2024-04-15", "debit": 68000, "credit": 0 },
+          { "date": "2024-04-30", "debit": 40000, "credit": 0 },
+          { "date": "2024-05-15", "debit": 75000, "credit": 0 },
+          { "date": "2024-05-31", "debit": 40000, "credit": 0 },
+          { "date": "2024-06-15", "debit": 80000, "credit": 0 },
+          { "date": "2024-06-30", "debit": 40000, "credit": 0 },
+          { "date": "2024-07-15", "debit": 85000, "credit": 0 },
+          { "date": "2024-07-31", "debit": 40000, "credit": 0 },
+          { "date": "2024-08-15", "debit": 90000, "credit": 0 },
+          { "date": "2024-08-31", "debit": 40000, "credit": 0 },
+          { "date": "2024-09-15", "debit": 95000, "credit": 0 },
+          { "date": "2024-09-30", "debit": 40000, "credit": 0 },
+          { "date": "2024-10-15", "debit": 100000, "credit": 0 },
+          { "date": "2024-10-31", "debit": 40000, "credit": 0 },
+          { "date": "2024-11-15", "debit": 110000, "credit": 0 },
+          { "date": "2024-11-30", "debit": 40000, "credit": 0 },
+          { "date": "2024-12-15", "debit": 120000, "credit": 0 },
+          { "date": "2024-12-31", "debit": 40000, "credit": 0 },
+          { "date": "2025-01-15", "debit": 115000, "credit": 0 },
+          { "date": "2025-01-31", "debit": 35000, "credit": 0 },
+          { "date": "2025-02-15", "debit": 120000, "credit": 0 },
+          { "date": "2025-02-28", "debit": 45000, "credit": 0 },
+          { "date": "2025-03-15", "debit": 125000, "credit": 0 },
+          { "date": "2025-03-31", "debit": 40000, "credit": 0 },
+          { "date": "2025-04-15", "debit": 130000, "credit": 0 },
+          { "date": "2025-04-30", "debit": 40000, "credit": 0 },
+          { "date": "2025-05-15", "debit": 140000, "credit": 0 },
+          { "date": "2025-05-31", "debit": 40000, "credit": 0 },
+          { "date": "2025-06-15", "debit": 150000, "credit": 0 },
+          { "date": "2025-06-19", "debit": 45000, "credit": 0 }
+        ]
+      },
+      {
+        "account_number": 6000,
+        "account_name": "Expense Account",
+        "entries": [
+          { "date": "2024-01-20", "debit": 0, "credit": 20000 },
+          { "date": "2024-01-28", "debit": 0, "credit": 20000 },
+          { "date": "2024-02-20", "debit": 0, "credit": 21000 },
+          { "date": "2024-02-28", "debit": 0, "credit": 21000 },
+          { "date": "2024-03-20", "debit": 0, "credit": 22500 },
+          { "date": "2024-03-28", "debit": 0, "credit": 22500 },
+          { "date": "2024-04-20", "debit": 0, "credit": 21500 },
+          { "date": "2024-04-28", "debit": 0, "credit": 21500 },
+          { "date": "2024-05-20", "debit": 0, "credit": 24000 },
+          { "date": "2024-05-28", "debit": 0, "credit": 24000 },
+          { "date": "2024-06-20", "debit": 0, "credit": 25000 },
+          { "date": "2024-06-28", "debit": 0, "credit": 25000 },
+          { "date": "2024-07-20", "debit": 0, "credit": 26000 },
+          { "date": "2024-07-28", "debit": 0, "credit": 26000 },
+          { "date": "2024-08-20", "debit": 0, "credit": 27500 },
+          { "date": "2024-08-28", "debit": 0, "credit": 27500 },
+          { "date": "2024-09-20", "debit": 0, "credit": 29000 },
+          { "date": "2024-09-28", "debit": 0, "credit": 29000 },
+          { "date": "2024-10-20", "debit": 0, "credit": 30000 },
+          { "date": "2024-10-28", "debit": 0, "credit": 30000 },
+          { "date": "2024-11-20", "debit": 0, "credit": 31000 },
+          { "date": "2024-11-28", "debit": 0, "credit": 31000 },
+          { "date": "2024-12-20", "debit": 0, "credit": 32500 },
+          { "date": "2024-12-28", "debit": 0, "credit": 32500 },
+          { "date": "2025-01-20", "debit": 0, "credit": 34000 },
+          { "date": "2025-01-28", "debit": 0, "credit": 34000 },
+          { "date": "2025-02-20", "debit": 0, "credit": 35000 },
+          { "date": "2025-02-28", "debit": 0, "credit": 35000 },
+          { "date": "2025-03-20", "debit": 0, "credit": 36000 },
+          { "date": "2025-03-28", "debit": 0, "credit": 36000 },
+          { "date": "2025-04-20", "debit": 0, "credit": 37500 },
+          { "date": "2025-04-28", "debit": 0, "credit": 37500 },
+          { "date": "2025-05-20", "debit": 0, "credit": 39000 },
+          { "date": "2025-05-28", "debit": 0, "credit": 39000 },
+          { "date": "2025-06-15", "debit": 0, "credit": 20000 },
+          { "date": "2025-06-19", "debit": 0, "credit": 20000 }
+        ]
+      }
+    ]
+  },
+  "HealthPlus": {
+    "company_info": {
+      "name": "HealthPlus",
+      "industry": "Healthcare",
+      "fiscal_year": "2024"
+    },
+    "balance_sheet": {
+      "assets": {
+        "current_assets": {
+          "cash_and_equivalents": 3800000000,
+          "accounts_receivable": 4500000000,
+          "inventory": 1200000000,
+          "other_current_assets": 850000000,
+          "total_current_assets": 10350000000
+        },
+        "non_current_assets": {
+          "property_plant_equipment": 7500000000,
+          "intangible_assets": 9800000000,
+          "investments": 4100000000,
+          "other_non_current_assets": 1500000000,
+          "total_non_current_assets": 22900000000
+        },
+        "total_assets": 33250000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 2300000000,
+          "short_term_debt": 1500000000,
+          "accrued_expenses": 3100000000,
+          "other_current_liabilities": 950000000,
+          "total_current_liabilities": 7850000000
+        },
+        "non_current_liabilities": {
+          "long_term_debt": 8500000000,
+          "pension_liabilities": 2700000000,
+          "other_non_current_liabilities": 1100000000,
+          "total_non_current_liabilities": 12300000000
+        },
+        "total_liabilities": 20150000000
+      },
+      "equity": {
+        "common_stock": 5000000000,
+        "retained_earnings": 8100000000,
+        "total_equity": 13100000000
+      }
+    },
+    "income_statement": {
+      "revenue": 28500000000,
+      "cost_of_services": 15800000000,
+      "gross_profit": 12700000000,
+      "operating_expenses": {
+        "personnel_expenses": 5900000000,
+        "research_development": 2800000000,
+        "technology_expenses": 1100000000,
+        "marketing_expenses": 750000000,
+        "other_operating_expenses": 650000000,
+        "total_operating_expenses": 11200000000
+      },
+      "operating_income": 1500000000,
+      "other_income_expenses": {
+        "interest_income": 180000000,
+        "interest_expense": 450000000,
+        "other_income": 120000000,
+        "total_other_income_expenses": -150000000
+      },
+      "income_before_tax": 1350000000,
+      "income_tax": 350000000,
+      "net_income": 1000000000
+    },
+    "journal": [
+      {
+        "date": "2024-09-01",
+        "document_number": "HP24-0901-01",
+        "description": "Patient services revenue",
+        "account_number": 4010,
+        "account_name": "Service Revenue",
+        "debet": 0,
+        "credit": 2350000000
+      },
+      {
+        "date": "2024-09-03",
+        "document_number": "HP24-0903-01",
+        "description": "Medical supplies purchase",
+        "account_number": 1410,
+        "account_name": "Inventory",
+        "debet": 450000000,
+        "credit": 0
+      }
+    ],
+    "ledger": [
+      {
+        "account_number": 1910,
+        "account_name": "Cash and Cash Equivalents",
+        "entries": [
+          {
+            "date": "2024-08-01",
+            "document_number": "HP24-0801-01",
+            "description": "Opening balance",
+            "debet": 3500000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-09-03",
+            "document_number": "HP24-0903-01",
+            "description": "Medical supplies purchase",
+            "debet": 0,
+            "credit": 450000000
+          },
+          {
+            "date": "2024-09-12",
+            "document_number": "HP24-0912-01",
+            "description": "Insurance payments received",
+            "debet": 750000000,
+            "credit": 0
+          }
+        ]
+      }
+    ]
+  },
+  "EcoEnergy": {
+    "company_info": {
+      "name": "EcoEnergy",
+      "industry": "Renewable Energy",
+      "fiscal_year": "2024"
+    },
+    "balance_sheet": {
+      "assets": {
+        "current_assets": {
+          "cash_and_equivalents": 850000000,
+          "accounts_receivable": 1850000000,
+          "inventory": 650000000,
+          "other_current_assets": 350000000,
+          "total_current_assets": 3700000000
+        },
+        "non_current_assets": {
+          "property_plant_equipment": 12500000000,
+          "intangible_assets": 1800000000,
+          "investments": 950000000,
+          "other_non_current_assets": 450000000,
+          "total_non_current_assets": 15700000000
+        },
+        "total_assets": 19400000000
+      },
+      "liabilities": {
+        "current_liabilities": {
+          "accounts_payable": 1250000000,
+          "short_term_debt": 2800000000,
+          "accrued_expenses": 750000000,
+          "other_current_liabilities": 350000000,
+          "total_current_liabilities": 5150000000
+        },
+        "non_current_liabilities": {
+          "long_term_debt": 9500000000,
+          "pension_liabilities": 850000000,
+          "other_non_current_liabilities": 450000000,
+          "total_non_current_liabilities": 10800000000
+        },
+        "total_liabilities": 15950000000
+      },
+      "equity": {
+        "common_stock": 4500000000,
+        "retained_earnings": -1050000000,
+        "total_equity": 3450000000
+      }
+    },
+    "income_statement": {
+      "revenue": 8500000000,
+      "cost_of_goods_sold": 5850000000,
+      "gross_profit": 2650000000,
+      "operating_expenses": {
+        "personnel_expenses": 1200000000,
+        "research_development": 850000000,
+        "technology_expenses": 350000000,
+        "marketing_expenses": 250000000,
+        "other_operating_expenses": 450000000,
+        "total_operating_expenses": 3100000000
+      },
+      "operating_income": -450000000,
+      "other_income_expenses": {
+        "interest_income": 50000000,
+        "interest_expense": 650000000,
+        "other_income": 150000000,
+        "total_other_income_expenses": -450000000
+      },
+      "income_before_tax": -900000000,
+      "income_tax": -150000000,
+      "net_income": -750000000
+    },
+    "journal": [
+      {
+        "date": "2024-09-01",
+        "document_number": "EE24-0901-01",
+        "description": "Energy supply revenue",
+        "account_number": 4010,
+        "account_name": "Energy Revenue",
+        "debet": 0,
+        "credit": 750000000
+      },
+      {
+        "date": "2024-09-10",
+        "document_number": "EE24-0910-01",
+        "description": "Equipment maintenance expenses",
+        "account_number": 6110,
+        "account_name": "Maintenance Expenses",
+        "debet": 350000000,
+        "credit": 0
+      }
+    ],
+    "ledger": [
+      {
+        "account_number": 1910,
+        "account_name": "Cash and Cash Equivalents",
+        "entries": [
+          {
+            "date": "2024-08-01",
+            "document_number": "EE24-0801-01",
+            "description": "Opening balance",
+            "debet": 1150000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-09-10",
+            "document_number": "EE24-0910-01",
+            "description": "Equipment maintenance payment",
+            "debet": 0,
+            "credit": 350000000
+          },
+          {
+            "date": "2024-09-15",
+            "document_number": "EE24-0915-01",
+            "description": "Customer payments received",
+            "debet": 450000000,
+            "credit": 0
+          },
+          {
+            "date": "2024-09-20",
+            "document_number": "EE24-0920-01",
+            "description": "Short-term loan interest payment",
+            "debet": 0,
+            "credit": 180000000
+          },
+          {
+            "date": "2024-09-25",
+            "document_number": "EE24-0925-01",
+            "description": "Payroll payments",
+            "debet": 0,
+            "credit": 220000000
+          }
+        ]
+      }
+    ]
+  }
+}
